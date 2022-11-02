@@ -1,4 +1,4 @@
-# This is the repository for all the materials used to create the manuscript. Welcome, please see below for how to generate reproducable tables and figures from the R codes and data files.
+# This is the repository for all the materials used to create the manuscript, please see below for how to generate reproducable tables and figures from the R codes and data files.
 
 # 'C:\Tile-Drainage-Flow-and-P-in-VT\Data\Data for thesis - AHS swap' folder: All the event hydrograph and nutrient data stored as csv's in this folder, separated by either '- Flow -' or '- EC,TP -', respectively. These are the only csv's that do not start with a period ("."). This is because the R code used to import the event flow and nutrient data looks for csv's in the working directory, and omits files with leading periods (leading periods are deemed 'hidden' in windows file explorer). This keeps the R code that reads in the event data from the entire folder simple.
 
